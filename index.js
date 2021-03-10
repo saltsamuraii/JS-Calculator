@@ -7,35 +7,36 @@ let btnDivide = document.querySelector('#buttonDivide')
 let number1 = document.querySelector('#number1')
 let number2 = document.querySelector('#number2')
 
-//let result = document.querySelector('#result')
+let result = document.querySelector('#result')
 
 
 function sum() {
-    number1 = +number1.value
-    number2 = +number2.value
+    let a = +number1.value
+    let b = +number2.value
+    let result = a + b
 
-    console.log(number1 + number2)
+    console.log(result)
 }
 
 function minus() {
-    number1 = number1.value
-    number2 = number2.value
+    let a = number1.value
+    let b = number2.value
 
-    console.log(number1 - number2)
+    console.log(a - b)
 }
 
 function multiply() {
-    number1 = number1.value
-    number2 = number2.value
+    let a = number1.value
+    let b = number2.value
 
-    console.log(number1 * number2)
+    console.log(a * b)
 }
 
 function divide() {
-    number1 = number1.value
-    number2 = number2.value
+    let a = number1.value
+    let b = number2.value
 
-    console.log(number1 / number2)
+    console.log(a / b)
 }
 
 
