@@ -3,15 +3,13 @@ let btnMinus = document.querySelector('#buttonMinus')
 let btnMultiply = document.querySelector('#buttonMultiply')
 let btnDivide = document.querySelector('#buttonDivide')
 
-
-let number1 = document.querySelector('#number1').value
-let number2 = document.querySelector('#number2').value
-
+let number1 = document.querySelector('#number1')
+let number2 = document.querySelector('#number2')
 
 
 function sum() {
-    let a = +number1
-    let b = +number2
+    let a = +number1.value
+    let b = +number2.value
     let result;
     result = a + b
 
@@ -19,8 +17,8 @@ function sum() {
 }
 
 function minus() {
-    let a = number1
-    let b = number2
+    let a = number1.value
+    let b = number2.value
     let result;
     result = a - b
 
@@ -28,8 +26,8 @@ function minus() {
 }
 
 function multiply() {
-    let a = number1
-    let b = number2
+    let a = number1.value
+    let b = number2.value
     let result;
     result = a * b
 
@@ -37,8 +35,8 @@ function multiply() {
 }
 
 function divide() {
-    let a = number1
-    let b = number2
+    let a = number1.value
+    let b = number2.value
     let result;
     result = a / b
 
