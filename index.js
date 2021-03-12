@@ -42,7 +42,7 @@ function divide() {
     let result;
     result = a / b
 
-    document.querySelector('#result').innerInput = result;
+    document.querySelector('#result').innerHTML = result;
 }
 
 
